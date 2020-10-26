@@ -6,4 +6,4 @@ export const calculateCost = (storage) => {
             ? 2
             : 1;
     return rate * storage * 100;
-}
+};
